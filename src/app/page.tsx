@@ -60,6 +60,17 @@ export default function Home() {
             Documentation
           </a>
         </div>
+        <div className="flex flex-wrap gap-3 text-sm font-medium">
+          <a className="text-blue-600 hover:underline" href="/small">
+            Small bundle route
+          </a>
+          <a className="text-blue-600 hover:underline" href="/medium">
+            Medium bundle route
+          </a>
+          <a className="text-blue-600 hover:underline" href="/large">
+            Large bundle route
+          </a>
+        </div>
         <BloatClient />
       </main>
     </div>
