@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predev": "npm run generate:huge",
     "build": "TURBOPACK_STATS=1 next build",
+    "prebuild": "npm run generate:huge",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate:huge": "node scripts/generate-huge-module.mjs"
   },
   "dependencies": {
     "next": "16.1.6",
