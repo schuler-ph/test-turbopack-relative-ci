@@ -1,5 +1,4 @@
 import Link from "next/link";
-import BloatClientMedium from "../_bundle-bloat/BloatClientMedium";
 
 export default function MediumPage() {
   return (
@@ -16,7 +15,9 @@ export default function MediumPage() {
             Back to home
           </Link>
         </div>
-        <BloatClientMedium />
+        medium data
+        medium data
+        medium data
       </main>
     </div>
   );

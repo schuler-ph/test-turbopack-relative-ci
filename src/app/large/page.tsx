@@ -1,5 +1,4 @@
 import Link from "next/link";
-import BloatClientLarge from "../_bundle-bloat/BloatClientLarge";
 
 export default function LargePage() {
   return (
@@ -16,7 +15,15 @@ export default function LargePage() {
             Back to home
           </Link>
         </div>
-        <BloatClientLarge />
+        large data
+        large data
+        large data
+        large data
+        large data
+        large data
+        large data
+        large data
+        large data
       </main>
     </div>
   );

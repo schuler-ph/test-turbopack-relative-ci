@@ -1,5 +1,4 @@
 import Link from "next/link";
-import BloatClientSmall from "../_bundle-bloat/BloatClientSmall";
 
 export default function SmallPage() {
   return (
@@ -16,7 +15,7 @@ export default function SmallPage() {
             Back to home
           </Link>
         </div>
-        <BloatClientSmall />
+        small data
       </main>
     </div>
   );
